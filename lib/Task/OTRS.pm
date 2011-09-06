@@ -98,4 +98,6 @@ This module will install all modules for the current version of OTRS, 3.0.x. It 
 that for 3.1.x the requirements change. It would be feasible that by then I'll release specific
 Task:: modules for specific OTRS versions.
 
+=cut
+
 1;
