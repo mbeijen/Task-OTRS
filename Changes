@@ -1,4 +1,7 @@
 {{$NEXT}}
 
+1.01      2011-09-27 10:06:06 Europe/Amsterdam
+Added missing dependency for XML::Parser.
+
 1.00      2011-09-07 00:01:14 Europe/Amsterdam
 Initial version.

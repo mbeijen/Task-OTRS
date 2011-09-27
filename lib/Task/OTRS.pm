@@ -82,6 +82,8 @@ your system, we will not install it again.
 
 =item * Text::CSV_XS
 
+=item * XML::Parser
+
 =item * version
 
 =back
