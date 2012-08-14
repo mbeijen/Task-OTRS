@@ -42,6 +42,10 @@ your system, we will not install it again.
 
 =over 4
 
+=item * Authen::NTLM
+
+=item * Authen::SASL
+
 =item * Class::Inspector
 
 =item * Compress::Zlib
@@ -65,6 +69,8 @@ your system, we will not install it again.
 =item * IO::Socket::SSL
 
 =item * JSON::XS
+
+=item * Mail::IMAPClient
 
 =item * MIME::Base64
 

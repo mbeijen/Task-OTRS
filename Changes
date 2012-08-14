@@ -1,4 +1,6 @@
 {{$NEXT}}
+Added dependencies for Mail::IMAPClient and supporting modules,
+since this is a new optional module for OTRS 3.1.
 
 1.01      2011-09-27 10:06:06 Europe/Amsterdam
 Added missing dependency for XML::Parser.
