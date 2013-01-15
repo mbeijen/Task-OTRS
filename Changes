@@ -1,4 +1,4 @@
-1.04      2013-01-15
+﻿1.04      2013-01-15
 Added dependency to YAML::XS (for OTRS 3.2).
 
 1.03      2012-08-28
