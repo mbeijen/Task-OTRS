@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::OTRS;
 
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 # ABSTRACT: Almost all of the modules required for installing OTRS Help Desk.
 
 =head1 SYNOPSIS
@@ -92,6 +92,8 @@ your system, we will not install it again.
 
 =item * XML::Parser
 
+=item * YAML::XS
+
 =item * version
 
 =back
@@ -104,9 +106,9 @@ and sending, you might not be needing Net::POP3 and Net::SMTP. Also, in case you
 care about generating PDF files with OTRS, you don't need PDF::API2. That said, installing
 Task::OTRS can help in setting up OTRS more quickly.
 
-This module will install all modules for the current version of OTRS, 3.0.x. It could be possible 
-that for 3.1.x the requirements change. It would be feasible that by then I'll release specific
-Task:: modules for specific OTRS versions.
+This module will install all modules for the newest version of OTRS at time of this writing, 3.2.x.
+It will actually install slightly more modules; SOAP::Lite is bundled in OTRS 3.1 and up; we 
+bundle it just for convenience reasons. 
 
 =cut
 
