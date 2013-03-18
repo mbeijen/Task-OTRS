@@ -1,3 +1,9 @@
+1.06      2013-03-18
+Removed Authen::SASL and Crypt::PasswdMD5 because these are already 
+bundled in Kernel/cpan-lib.
+Removed Digest::MD5, MIME::Base64, Net::POP3 and Net::SMTP because
+they are in core.
+
 1.05      2013-02-27
 Fixed source links.
 

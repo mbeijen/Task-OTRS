@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::OTRS;
 
-our $VERSION = '1.05';
+our $VERSION = '1.06';
 # ABSTRACT: Almost all of the modules required for installing OTRS Help Desk.
 
 =head1 SYNOPSIS
@@ -46,19 +46,13 @@ your system, we will not install it again.
 
 =item * Authen::NTLM
 
-=item * Authen::SASL
-
 =item * Class::Inspector
 
 =item * Compress::Zlib
 
-=item * Crypt::PasswdMD5
-
 =item * Date::Format
 
 =item * DBI
-
-=item * Digest::MD5
 
 =item * Encode::HanExtra
 
@@ -74,15 +68,9 @@ your system, we will not install it again.
 
 =item * Mail::IMAPClient
 
-=item * MIME::Base64
-
 =item * Net::DNS
 
 =item * Net::LDAP
-
-=item * Net::POP3
-
-=item * Net::SMTP
 
 =item * PDF::API2
 
