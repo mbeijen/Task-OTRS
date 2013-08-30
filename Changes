@@ -1,3 +1,6 @@
+1.07      2013-08-30
+Added Crypt::Eksblowfish::Bcrypt for OTRS 3.3.
+
 1.06      2013-03-18
 Removed Authen::SASL and Crypt::PasswdMD5 because these are already 
 bundled in Kernel/cpan-lib.
