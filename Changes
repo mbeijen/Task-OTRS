@@ -1,3 +1,7 @@
+1.08      2013-09-25
+Re-release because of issue with Dist::Zilla::Plugin::Test::Compile
+reported by ETHER.
+
 1.07      2013-08-30
 Added Crypt::Eksblowfish::Bcrypt for OTRS 3.3.
 

@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Task::OTRS;
 
-our $VERSION = '1.07';
+our $VERSION = '1.08';
 # ABSTRACT: Almost all of the modules required for installing OTRS Help Desk.
 
 =head1 SYNOPSIS
