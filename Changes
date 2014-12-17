@@ -1,3 +1,7 @@
+1.10      2014-12-17
+Release with two additional modules; Template and Archive::Zip, for OTRS 4.
+Specified minimum perl 5.10.0, as is required for OTRS 3.3.x and up.
+
 1.08      2013-09-25
 Re-release because of issue with Dist::Zilla::Plugin::Test::Compile
 reported by ETHER.
